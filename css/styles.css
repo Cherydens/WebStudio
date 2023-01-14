@@ -1094,6 +1094,7 @@ body {
 /* Modal Window */
 
 .backdrop {
+  overflow: auto;
   position: fixed;
   z-index: 100;
   top: 0;
