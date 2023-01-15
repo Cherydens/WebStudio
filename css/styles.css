@@ -1094,7 +1094,7 @@ body {
 /* Modal Window */
 
 .backdrop {
-  overflow: auto;
+  overflow-y: auto;
   position: fixed;
   z-index: 100;
   top: 0;
@@ -1116,9 +1116,9 @@ body {
 
 .modal {
   position: absolute;
-  top: 50%;
+  top: 96px;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translatex(-50%);
   max-width: 392px;
   width: calc(100% - 36px);
   padding-top: 72px;
