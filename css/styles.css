@@ -70,17 +70,17 @@ body {
   overflow: hidden;
 }
 
-.container {
-  padding-left: 16px;
-  padding-right: 16px;
-}
-
 .btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   border-radius: 4px;
+}
+
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 @media screen and (min-width: 480px) {
@@ -247,9 +247,9 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    width: 32px;
-    height: 32px;
-    top: 20px;
+    width: 30px;
+    height: 30px;
+    top: 21px;
     right: 16px;
     padding: 0;
     border: 1px solid rgba(0, 0, 0, 0.1);
